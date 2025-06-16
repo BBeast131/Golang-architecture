@@ -12,7 +12,6 @@ export const DishModal = ({ isModalOpen, handleOk, handleCancel }) => {
   const handleChange = (value) => {
     console.log(`selected ${value}`);
   };
-
   return (
     <>
       <Modal
@@ -34,7 +33,6 @@ export const DishModal = ({ isModalOpen, handleOk, handleCancel }) => {
         width={520}
       >
         <Divider />
-
         <Form
           name="basic"
           labelCol={{ span: 8 }}
