@@ -28,7 +28,6 @@ export const HomeLayout = ({
           property="og:image"
           content={imageUrl}
         />
-
         {/* Twitter */}
         <meta
           name="twitter:card"
@@ -47,13 +46,10 @@ export const HomeLayout = ({
           content={imageUrl}
         />
       </Head>
-
       <HomeNavbar />
-
       <Content>
         <Layout>{children}</Layout>
       </Content>
-
       <FooterComponent />
     </Layout>
   );
